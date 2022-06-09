@@ -55,10 +55,10 @@
     display: grid;
     grid-template-areas: 
     "imagen imagen imagen"
-    "productos productos productos"
+    "imagen imagen imagen"
     "productos productos productos" ;
     grid-template-rows:80%;
-    grid-template-columns:33% 33% 33% ;
+    grid-template-columns:33% 33% 33%;
     gap:2px
     
     
@@ -85,3 +85,17 @@ section#imagen{
 }
 
 
+/*.contenedor img {
+    position: absolute;
+    left: 0;
+    transition:1.5s ease-in-out;
+  }
+
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+  .contenedor {
+    position: relative;
+   
+    /*float: left;*/
+  
