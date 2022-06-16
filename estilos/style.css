@@ -55,47 +55,138 @@
     display: grid;
     grid-template-areas: 
     "imagen imagen imagen"
-    "imagen imagen imagen"
-    "productos productos productos" ;
-    grid-template-rows:80%;
-    grid-template-columns:33% 33% 33%;
+     ;
+    grid-template-rows:90%;
+    grid-template-columns:33% 33% 33% ;
     gap:2px
     
     
 }
 /*declaracion de areas*/
-section#productos{
-    grid-area:productos;
-}
+
 section#imagen{
     grid-area:imagen;
 }
 
 .homeflex{
+    height:60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top:30px ; 
 }
-#productos{
+
+
+
+/*estilos productos destacados home*/
+
+.productosDestacados1{
+    height:100vh;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    margin-top:30px ;
+    justify-content:center ;
+    align-items: center;
+
+}
+.productosDestacados2{
+    height:70vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.conte{
+    height: 497px;
+    width:300px;
+    margin:40px;
+    margin-bottom:0% ;
+}
+  
+
+.imgDestacados{
+    width: 298px;
+    height:500px ;
 }
 
+.informacion{
+    height: 80px;
+    width:100%;
+}
+.informacion h2{
+    font-family:sans-serif ;
+    
+    text-align: center;
+    margin-bottom:10px ;
+    margin-top: 20px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    
 
-/*.contenedor img {
-    position: absolute;
-    left: 0;
-    transition:1.5s ease-in-out;
-  }
+}
 
-  .contenedor img.top:hover {
-    opacity: 0;
-  }
-  .contenedor {
-    position: relative;
+.precio{
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titulo-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20%;
+}
+footer{
+    display: flex;
+    margin-top:50vh;
+    background-color: black;
+}
+/*grilla shop*/
+
+
+section#seccion-shop{
+    grid-area:seccion-shop ;
+}
+section#destacados1-shop{
+    grid-area:destacado1-shop ;
+}
+section#destacados2-shop{
+    grid-area:destacados2-shop;
+}
+footer{
+    grid-area:footer ;
+}
+/*secciones shop*/
+
+.seccionesShop{
+    height:55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /*align-items: center;*/
    
-    /*float: left;*/
-  
+    
+}
+.conte-shop{
+    height: 497px;
+    width:300px;
+    margin-top:40px ;
+    margin-bottom:0% ;
+}
+.productosDestacado-shop1{
+    height:90vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+#titulo-shop{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top:10%;
+}
