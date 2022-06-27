@@ -1,33 +1,28 @@
 
-#grilla{
-    display: grid;
-    grid-template-areas: 
-    "imagen imagen imagen"
-     ;
-    grid-template-rows:90%;
-    grid-template-columns:33% 33% 33% ;
-    gap:2px;
-    margin:10px;
-    
-    
-}
-section#imagen{
-    grid-area:imagen;
+#titulo-Home{
+    margin-top: 20vh;
 }
 
-.homeflex{
-    height:60vh;
+.conte-section-home{
     display: flex;
+    height:100%;
     flex-direction: row;
     justify-content: space-around;
-    margin-top:30px ; 
+    margin-top:30px ;
+    .imgH{
+        position:relative;
+        margin:0px;
+        .sectionH-card  img{
+            width:100%;
+        }
+
+    }
 }
-#titulo-home{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top:20%;
-}
+
+
+
+
+
 
 
 
